@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;	
+  background-image: url('https://images.unsplash.com/photo-1470984968366-39a03132fd26?ixlib=rb-0.3.5&s=afc42ce5dec61fe6f5a2b3a74882922e&auto=format&fit=crop&w=1881&q=80');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+  
+h1 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: whitesmoke;
+
+
+}
+
+li {
+	color: white;
+	font-size: 15px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+.app {
+	border-style: solid;
+	border-color: white;
+	width: 400px;
+	margin-left: 430px;
+	margin-top: 10px;
+	background: rgba(87, 44, 69, 0.9);
+	border-width: 1px;
+}
+
+.picture {
+	border-style: solid;
+	border-color: white;
+	border-radius: 50%;
+	width: 70px;
+    height: 70px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+
+input {
+
+	background-color: whitesmoke;
+    color: black;
+    width: 300px;
+	height: 28px;
+	padding-left: 16px;
+	margin-top: 7px; 
+	margin-left: 50px;   
+	border-radius: 19px;
+	border-style: none;
+	box-sizing: border-box;
+	margin-bottom: 10px;
+
+}
+
+.list-item {
+	width: 400px;
+	border-top-color: white;
+	border-top-style: solid;
+	border-width: 1px;
+	padding: 5px 0 5px 15px;
+	
+
+}
+
+
+.clearfix {
+    overflow: auto;
+}
+
+.info {
+	
+	width: 230px;
+}
+
+.box{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
